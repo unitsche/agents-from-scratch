@@ -6,7 +6,7 @@ import sys
 import pytest
 from typing import Dict, List, Any, Tuple
 from pydantic import BaseModel, Field
-from langchain.chat_models import init_chat_model
+from langchain import init_chat_model
 
 from langsmith import testing as t
 

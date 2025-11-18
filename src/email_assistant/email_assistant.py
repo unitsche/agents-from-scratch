@@ -1,6 +1,6 @@
 from typing import Literal
 
-from langchain.chat_models import init_chat_model
+from langchain import init_chat_model
 
 from email_assistant.tools import get_tools, get_tools_by_name
 from email_assistant.tools.default.prompt_templates import AGENT_TOOLS_PROMPT

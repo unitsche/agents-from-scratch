@@ -1,6 +1,6 @@
 from typing import Literal
 
-from langchain.chat_models import init_chat_model
+from langchain import init_chat_model
 
 from langgraph.graph import StateGraph, START, END
 from langgraph.store.base import BaseStore

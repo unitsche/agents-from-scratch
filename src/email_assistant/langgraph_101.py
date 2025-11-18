@@ -1,6 +1,6 @@
 from typing import Literal
-from langchain.chat_models import init_chat_model
-from langchain.tools import tool
+from langchain import init_chat_model
+from langchain_core.tools import tool
 from langgraph.graph import MessagesState, StateGraph, END, START
 from dotenv import load_dotenv
 load_dotenv(".env")
